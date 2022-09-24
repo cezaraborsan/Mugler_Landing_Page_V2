@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles\style.css" />
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+    <title>MUGLER</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-bar">
+        <div class="mobile-menu">
+          <button class="hamburger-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+          <button class="search-icon">
+            <img src="images\Search-icon.svg" />
+          </button>
+        </div>
+        <form class="search-form">
+          <button class="search-btn">
+            <img src="images\Search-icon.svg" />
+          </button>
+          <div class="search-input-container">
+            <img src="images\Search-icon.svg" />
+            <input
+              type="search"
+              placeholder="Search.."
+              name="search"
+              class="search-input opacity"
+            />
+          </div>
+        </form>
+
+        <div class="logo">
+          <a href="#"
+            ><img
+              src="images\MUGLER-logo.svg"
+              alt="MUGLER"
+              class="top-bar-logo"
+          /></a>
+        </div>
+
+        <div class="top-bar-buttons">
+          <button class="account-btn">
+            <a href="login.html"
+              ><img src="images\Account-icon.svg" alt="tiny man"
+            /></a>
+          </button>
+          <button class="basket-btn">
+            <img src="images\Basket-icon.svg" alt="basket" />
+          </button>
+        </div>
+      </div>
+
+      <nav class="nav-links menu-wrapper">
+        <ul class="menu-main">
+          <li class="menu-item nav-expand">
+            <a href="#" class="menu-bar-link nav-expand-link">
+              Frangrance
+              <img class="menu-chevron" src="images\Chevron-menu.svg" alt=""
+            /></a>
+            <div class="menu-sub nav-expand-content">
+              <div class="menu-flex">
+                <div class="menu-col-1 nav-expand">
+                  <a class="menu-category nav-expand-link">
+                    New
+                    <img
+                      class="menu-chevron"
+                      src="images\Chevron-menu.svg"
+                      alt=""
+                    />
+                  </a>
+                  <ul class="nav-expand-content">
+                    <li><a href="#">Alien Goddess</a></li>
+                    <li><a href="#">Angel Nova</a></li>
+                    <li><a href="#">Alien Mirage</a></li>
+                  </ul>
+
+                  <div class="nav-expand">
+                    <a class="menu-category nav-expand-link">
+                      Gifts
+                      <img
+                        class="menu-chevron"
+                        src="images\Chevron-menu.svg"
+                        alt=""
+                      />
+                    </a>
+                    <ul class="nav-expand-content">
+                      <li><a href="#">Gifts Sets for Her</a></li>
+                      <li><a href="#">Gifts Sets for Him</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="menu-col-2 nav-expand">
+                  <a class="menu-category nav-expand-link">
+                    Womens' Fragrance
+                    <img
+                      class="menu-chevron"
+                      src="images\Chevron-menu.svg"
+                      alt=""
+                    />
+                  </a>
+                  <ul class="nav-expand-content">
+                    <li><a href="#">Angel</a></li>
+                    <li><a href="#">Alien</a></li>
+                    <li><a href="#">Alien Goddess</a></li>
+                    <li><a href="#">Aura MUGLER</a></li>
+                    <li><a href="#">Angel Muse</a></li>
+                    <li><a href="#">Womanity</a></li>
+                    <li><a href="#">Innocent</a></li>
+                  </ul>
+                </div>
+
+                <div class="menu-col-3 nav-expand">
+                  <a class="menu-category nav-expand-link">
+                    Mens' Fragrance
+                    <img
+                      class="menu-chevron"
+                      src="images\Chevron-menu.svg"
+                      alt=""
+                    />
+                  </a>
+                  <ul class="nav-expand-content">
+                    <li><a href="#">Alien Man</a></li>
+                    <li><a href="#">A *Men</a></li>
+                  </ul>
+                </div>
+
+                <div class="menu-col-4 nav-expand">
+                  <a class="menu-category nav-expand-link">
+                    Exclusivities
+                    <img
+                      class="menu-chevron"
+                      src="images\Chevron-menu.svg"
+                      alt=""
+                    />
+                  </a>
+                  <ul class="nav-expand-content">
+                    <li><a href="#">Les Exceptions</a></li>
+                    <li><a href="#">MUGLER Cologne</a></li>
+                    <li><a href="#">Refills</a></li>
+                    <li><a href="#">MUGLER Fountain</a></li>
+                  </ul>
+                </div>
+
+                <div class="menu-col-5 nav-expand">
+                  <a class="menu-category nav-expand-link">
+                    Selections
+                    <img
+                      class="menu-chevron"
+                      src="images\Chevron-menu.svg"
+                      alt=""
+                    />
+                  </a>
+                  <ul class="nav-expand-content">
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Gifts & Sets</a></li>
+                    <li><a href="#">Scented Candles</a></li>
+                    <li><a href="#">Travel Size</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu-item nav-expand">
+            <a href="#" class="menu-bar-link nav-expand-link">
+              Fashion
+              <img class="menu-chevron" src="images\Chevron-menu.svg" alt=""
+            /></a>
+            <div class="menu-sub nav-expand-content">
+              <div class="menu-flex">
+                <div class="menu-col-1">
+                  <p class="menu-category">
+                    Collections
+                    <img
+                      class="menu-chevron"
+                      src="images\Chevron-menu.svg"
+                      alt=""
+                    />
+                  </p>
+                </div>
+
+                <div class="menu-col-2">
+                  <p class="menu-category">
+                    Collections 2
+                    <img
+                      class="menu-chevron"
+                      src="images\Chevron-menu.svg"
+                      alt=""
+                    />
+                  </p>
+                </div>
+
+                <div class="menu-col-3">
+                  <p class="menu-category">
+                    Collections 3
+                    <img
+                      class="menu-chevron"
+                      src="images\Chevron-menu.svg"
+                      alt=""
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu-item nav-expand">
+            <a href="#" class="menu-bar-link nav-expand-link">
+              The fountain
+              <img class="menu-chevron" src="images\Chevron-menu.svg" alt=""
+            /></a>
+            <div class="menu-sub nav-expand-content">
+              <div class="menu-flex">
+                <div class="menu-col-1">
+                  <p class="menu-category">
+                    Fountain 1
+                    <img
+                      class="menu-chevron"
+                      src="images\Chevron-menu.svg"
+                      alt=""
+                    />
+                  </p>
+                </div>
+
+                <div class="menu-col-2">
+                  <p class="menu-category">
+                    Fountain 2
+                    <img
+                      class="menu-chevron"
+                      src="images\Chevron-menu.svg"
+                      alt=""
+                    />
+                  </p>
+                </div>
+
+                <div class="menu-col-3">
+                  <p class="menu-category">
+                    Fountain 3
+                    <img
+                      class="menu-chevron"
+                      src="images\Chevron-menu.svg"
+                      alt=""
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="menu-item nav-expand">
+            <a href="#" class="menu-bar-link nav-expand-link">
+              About
+              <img class="menu-chevron" src="images\Chevron-menu.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="overlay"></div>
+    <main class="container">
+      <section class="hero-section">
+        <div class="slide slide-1 active">
+          <div class="hero-col-1">
+            <div class="hero-col-1-content">
+              <div class="hero-col-1-info">
+                <h1>
+                  SPRING SUMMER
+                  <br /><span>2022 COLLECTION</span>
+                </h1>
+                <p>
+                  The new collection reveals the evolution of Mugler shapewear
+                  silhouettes, denim, eveningwear and tailoring across a diverse
+                  array of bodies.
+                </p>
+              </div>
+
+              <div class="hero-col-1-btn">
+                <button>View Collection</button>
+              </div>
+            </div>
+          </div>
+          <div class="hero-col-2">
+            <img src="images\slide-img-1.jpg" alt="" />
+            <div class="progress-bar">
+              <div class="progress">
+                <div id="length"></div>
+                <div id="progress_animation"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide slide-2">
+          <div class="hero-col-1">
+            <div class="hero-col-1-content">
+              <div class="hero-col-1-info">
+                <h1>
+                  Fall Winter
+                  <br /><span>2021-2022 Collection</span>
+                </h1>
+                <p>
+                  In a cinematic satire directed by torso solutions, the fall
+                  winter 2021-22 collection is revealed in a series of sleek
+                  vignettes that examine the tropes of the back lot, studio
+                  photography and the runway show by breaking the 4th wall and
+                  harnessing the power of the gaze.
+                </p>
+              </div>
+
+              <div class="hero-col-1-btn">
+                <button>See the looks</button>
+              </div>
+            </div>
+          </div>
+          <div class="hero-col-2">
+            <img src="images\slide-img-2.jpg" alt="" />
+            <div class="progress-bar">
+              <div class="progress">
+                <div id="length"></div>
+                <div id="progress_animation"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide slide-3">
+          <div class="hero-col-1">
+            <div class="hero-col-1-content">
+              <div class="hero-col-1-info">
+                <h1>
+                  JIMMY CHOO/MUGLER
+                  <br /><span>COLLABORATION</span>
+                </h1>
+                <p>
+                  “A shoe finishes the look and defines character. I have always
+                  associated Jimmy Choo with a very strong sense of sculpture in
+                  shoes, a balance of sharpness and curve.” Casey Cadwallader,
+                  Creative Director Mugler
+                </p>
+              </div>
+
+              <div class="hero-col-1-btn">
+                <button>Discover</button>
+              </div>
+            </div>
+          </div>
+          <div class="hero-col-2">
+            <img src="images\slide-img-3.jpg" alt="" />
+            <div class="progress-bar">
+              <div class="progress">
+                <div id="length"></div>
+                <div id="progress_animation"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="arrow-btn">
+          <button class="prev" onclick="plusSlides(-1)">
+            <img src="images\arrow-prev.svg" alt="left arrow" />
+          </button>
+          <button class="next" onclick="plusSlides(1)">
+            <img src="images\arrow-next.svg" alt="right arrow" />
+          </button>
+        </div>
+      </section>
+
+      <section class="explore-section">
+        <div class="explore-row row-1">
+          <div class="explore-col-1">
+            <img
+              class="larger-screen"
+              src="images\explore-section-img-1.jpg"
+              alt="willow smith holding a gold flower"
+            />
+          </div>
+          <div class="explore-col-2">
+            <div class="col-content">
+              <h2>Fragrance</h2>
+              <button class="explore-btn btn-row-1">Explore</button>
+            </div>
+          </div>
+        </div>
+        <div class="explore-row row-2">
+          <div class="explore-col-1">
+            <img
+              src="images\explore-section-img-2.jpg"
+              alt="bella hadid in a cut overoll"
+            />
+          </div>
+          <div class="explore-col-2">
+            <div class="col-content">
+              <h2>Fashion</h2>
+              <button class="explore-btn btn-row-2">Discover</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tabs-section">
+        <div class="tab-control">
+          <button class="tab-btn active" data-tab-target="#tab-1">
+            Best Sellers
+          </button>
+          <button class="tab-btn" data-tab-target="#tab-2">New In</button>
+          <button class="tab-btn" data-tab-target="#tab-3">For Her</button>
+          <button class="tab-btn" data-tab-target="#tab-4">For Him</button>
+        </div>
+        <div class="tabs-content">
+          <div class="tab active" id="tab-1" data-tab-content>
+            <div class="tab-item">
+              <img
+                src="images\tabs-section-forher-heart.jpg"
+                alt="star parfum bottle"
+              />
+              <div class="parfum-details">
+                <div class="tags">
+                  <span class="new">New</span>
+                  <span class="reffillable">Refillable</span>
+                </div>
+                <h3>Aura Mugler</h3>
+                <p>Eau de parfum star</p>
+              </div>
+              <button class="discover-btn">Discover</button>
+            </div>
+
+            <div class="tab-item">
+              <img
+                src="images\tabs-section-new-in-alien.jpg"
+                alt="purple with gold parfum bottle"
+              />
+              <div class="parfum-details">
+                <div class="tags">
+                  <span class="new">New</span>
+                  <span class="reffillable">Best seller</span>
+                </div>
+                <h3>Alien Goddess</h3>
+                <p>eau de parfum spray</p>
+              </div>
+              <button class="discover-btn">Discover</button>
+            </div>
+
+            <div class="tab-item">
+              <img
+                src="images\tabs-section-new-in-nova.jpg"
+                alt="pink star parfum bottle"
+              />
+              <div class="parfum-details">
+                <div class="tags">
+                  <span class="new">New</span>
+                  <span class="reffillable">Refillable</span>
+                </div>
+                <h3>Angel Nova</h3>
+                <p>Angel eau de parfum</p>
+              </div>
+              <button class="discover-btn">Discover</button>
+            </div>
+
+            <div class="tab-item">
+              <img
+                src="images\tabs-section-new-in-iced-star.jpg"
+                alt="colorful star parfum bottle"
+              />
+              <div class="parfum-details">
+                <div class="tags">
+                  <span class="new">New</span>
+                  <span class="reffillable">Refillable</span>
+                </div>
+                <h3>Angel Nova</h3>
+                <p>Eau de toilette</p>
+              </div>
+              <button class="discover-btn">Discover</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab" id="tab-2" data-tab-content>
+          <div class="tab-item">
+            <img
+              src="images\tabs-section-new-in-alien.jpg"
+              alt="gold parfum bottle"
+            />
+            <div class="parfum-details">
+              <div class="tags">
+                <span class="new">New</span>
+                <span class="reffillable">Refillable</span>
+              </div>
+              <h3>Alien</h3>
+              <p>Eau de parfum gold</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+
+          <div class="tab-item">
+            <img
+              src="images\tabs-section-new-in-nova.jpg"
+              alt="pink star parfum bottle"
+            />
+            <div class="parfum-details">
+              <div class="tags">
+                <span class="new">New</span>
+                <span class="reffillable">Refillable</span>
+              </div>
+              <h3>Angel Nova</h3>
+              <p>eau de parfum nova</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+
+          <div class="tab-item">
+            <img
+              src="images\tabs-section-new-in-iced-star.jpg"
+              alt="colorful star parfum bottle"
+            />
+            <div class="parfum-details">
+              <div class="tags">
+                <span class="new">New</span>
+                <span class="reffillable">Refillable</span>
+              </div>
+              <h3>Angel Nova</h3>
+              <p>Eau de toilette</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+
+          <div class="tab-item">
+            <img
+              src="images\tabs-section-forher-alien-red.jpg"
+              alt="red with gold parfum bottle"
+            />
+            <div class="parfum-details">
+              <div class="tags">
+                <span class="new">New</span>
+                <span class="reffillable">Best seller</span>
+              </div>
+              <h3>Alien Fusion</h3>
+              <p>eau de parfum</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+        </div>
+
+        <div class="tab" id="tab-3" data-tab-content>
+          <div class="tab-item">
+            <img
+              src="images\tabs-section-forher-heart.jpg"
+              alt="green heart shape parfum bottle"
+            />
+            <div class="parfum-details">
+              <div class="tags">
+                <span class="new">New</span>
+                <span class="reffillable">Refillable</span>
+              </div>
+              <h3>Aura Mugler</h3>
+              <p>Eau de parfum</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+
+          <div class="tab-item">
+            <img
+              src="images\tabs-section-forher-alien-red.jpg"
+              alt="red with gold parfum bottle"
+            />
+            <div class="parfum-details">
+              <div class="tags">
+                <span class="new">New</span>
+                <span class="reffillable">Refillable</span>
+              </div>
+              <h3>Alien Fusion</h3>
+              <p>Eau de parfum</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+
+          <div class="tab-item">
+            <img
+              src="images\tabs-section-new-in-alien.jpg"
+              alt="gold parfum bottle"
+            />
+            <div class="parfum-details">
+              <div class="tags">
+                <span class="new">New</span>
+                <span class="reffillable">Refillable</span>
+              </div>
+              <h3>Alien Goddess</h3>
+              <p>Eau de parfum</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+
+          <div class="tab-item">
+            <img
+              src="images\tabs-section-new-in-nova.jpg"
+              alt="pink star parfum bottle"
+            />
+            <div class="parfum-details">
+              <div class="tags">
+                <span class="new">New</span>
+                <span class="reffillable">Refillable</span>
+              </div>
+              <h3>Angel Nova</h3>
+              <p>Eau de toilette</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+        </div>
+
+        <div class="tab" id="tab-4" data-tab-content>
+          <div class="tab-item">
+            <img
+              src="images\tabs-section-forhim-blackbottle.jpg"
+              alt="black square parfum bottle"
+            />
+            <div class="parfum-details">
+              <div class="tags">
+                <span class="new">New</span>
+                <span class="reffillable">Refillable</span>
+              </div>
+              <h3>Alien Man</h3>
+              <p>Eau de toilette</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+
+          <div class="tab-item">
+            <img
+              src="images\tabs-section-forhim-shampoo.jpg"
+              alt="black shampoo recipient"
+            />
+            <div class="parfum-details">
+              <div class="tags">
+                <span class="new">New</span>
+                <span class="reffillable">Best seller</span>
+              </div>
+              <h3>Alien Man</h3>
+              <p>Hair and body shampoo</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+
+          <div class="tab-item">
+            <img
+              src="images\tabs-section-forhim-bluebottle.jpg"
+              alt="blue parfum bottle"
+            />
+            <div class="parfum-details">
+              <div class="tags">
+                <span class="new">New</span>
+                <span class="reffillable">Reffillable</span>
+              </div>
+              <h3>Alien Man Fusion</h3>
+              <p>Eau de toilette</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+
+          <div class="tab-item">
+            <img
+              src="images\tabs-section-forhim-flask.jpg"
+              alt="black with star parfum bottle"
+            />
+            <div class="parfum-details">
+              <div class="tags">
+                <span class="new">New</span>
+                <span class="reffillable">Reffillable</span>
+              </div>
+              <h3>A*Men</h3>
+              <p>Eau de toilette flask</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="explore-section">
+        <div class="explore-row row-3">
+          <div class="explore-col-1">
+            <img
+              src="images\refill-section-img-1.jpg"
+              alt="purple parfum bottle"
+            />
+          </div>
+          <div class="explore-col-2">
+            <div class="col-content">
+              <h2>Refill your bottle</h2>
+              <button class="explore-btn btn-row-1">Explore</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="exceptions-section">
+        <div class="exceptions-title">
+          <h2>LES EXCEPTIONS</h2>
+          <p>WHEN PERFUMERY MEETS THE EXTRAORDINARY</p>
+        </div>
+        <div class="exceptions-content">
+          <div class="exception-item">
+            <img
+              src="images\exceptions-section-img-1.png"
+              alt="pink scarf, gold parfum"
+            />
+            <div class="parfum-details">
+              <h3>Les Exceptions</h3>
+              <p>CHYPRISSME</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+          <div class="exception-item">
+            <img
+              src="images\exceptions-section-img-2.png"
+              alt="green scarf, gold parfum"
+            />
+            <div class="parfum-details">
+              <h3>Les Exceptions</h3>
+              <p>CHYPRISSME</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+          <div class="exception-item">
+            <img
+              src="images\exceptions-section-img-3.png"
+              alt="yellow scarf, gold parfum"
+            />
+            <div class="parfum-details">
+              <h3>Les Exceptions</h3>
+              <p>CHYPRISSME</p>
+            </div>
+            <button class="discover-btn">Discover</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="explore-section">
+        <div class="explore-row row-4">
+          <div class="explore-col-1">
+            <img src="images\aboutus-img-1.png" alt="" />
+          </div>
+          <div class="explore-col-2">
+            <div class="col-content">
+              <h2>OUR VISION MUGLER, THE ART OF FACETING DREAMS</h2>
+              <p>
+                The real world just isn't enough. Shine under the MUGLER star
+                and be inspired to become whoever you want to be.
+              </p>
+              <button class="explore-btn">Discover</button>
+            </div>
+          </div>
+        </div>
+        <div class="explore-row row-5">
+          <div class="explore-col-1">
+            <img src="images\aboutus-img-2.png" alt="" />
+          </div>
+          <div class="explore-col-2">
+            <div class="col-content">
+              <h2>OUR COMMITMENTS</h2>
+              <p>
+                MUGLER is committed to creating its fragrances in pursuit of a
+                new vision of luxury: one that is more ethical.
+              </p>
+              <button class="explore-btn">Discover</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-row row-6">
+          <div class="explore-col-1">
+            <img src="images\aboutus-img-3.png" alt="" />
+          </div>
+          <div class="explore-col-2">
+            <div class="col-content">
+              <h2>OUR SAVOIR-FAIRE THE MUGLER SPIRIT</h2>
+              <p>
+                MUGLER was established by the creative visionary Manfred Thierry
+                Mugler, he launched his first collection in 1974.
+              </p>
+              <button class="explore-btn">Discover</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images\Mugler Logo.svg" alt="MUGLER" />
+        </div>
+        <nav class="footer-menu">
+          <div class="footer-col">
+            <div class="item">
+              <input type="checkbox" id="w-fragrances" />
+              <div class="col-section">
+                <label for="w-fragrances">
+                  <h5>WOMEN'S FRAGRANCES</h5>
+                </label>
+                <ul class="links-list">
+                  <li><a href="#">Angel</a></li>
+                  <li><a href="#">Alien</a></li>
+                  <li><a href="#">Aura Mugler</a></li>
+                  <li><a href="#">Womanity</a></li>
+                  <li><a href="#">Innocent</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <div class="item">
+              <input type="checkbox" id="m-fragrances" />
+              <div class="col-section">
+                <label for="m-fragrances">
+                  <h5>MEN'S FRAGRANCES</h5>
+                </label>
+                <ul class="links-list">
+                  <li><a href="#">Alien Man</a></li>
+                  <li><a href="#">A* Men</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <div class="item">
+              <input type="checkbox" id="featured" />
+              <div class="col-section">
+                <label for="featured">
+                  <h5>FEATURED</h5>
+                </label>
+                <ul class="links-list">
+                  <li><a href="#">Refill bottles</a></li>
+                  <li><a href="#">Gifts for her</a></li>
+                  <li><a href="#">Gifts for him</a></li>
+                  <li><a href="#">What's new</a></li>
+                  <li><a href="#">Best Sellers</a></li>
+                  <li><a href="#">Online Exclusives</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <div class="item">
+              <input type="checkbox" id="mugler" />
+              <div class="col-section">
+                <label for="mugler">
+                  <h5>MUGLER</h5>
+                </label>
+                <ul class="links-list">
+                  <li><a href="#">MUGLER World</a></li>
+                  <li><a href="#">MUGLER Mag</a></li>
+                  <li><a href="#">The Mugler Fountain</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <div class="item">
+              <input type="checkbox" id="help" />
+              <div class="col-section">
+                <label for="help">
+                  <h5>HELP</h5>
+                </label>
+                <ul class="links-list">
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Circle Terms & Conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Cookie Settings</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <hr />
+        <section class="footer-base-bar">
+          <div class="copy-rights">
+            <span>© Mugler 2022</span>
+            <ul>
+              <li>Terms & Conditions</li>
+              <li>Site Map</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <p>FIND A STORE</p>
+            <div class="social-wrapper">
+              <ul>
+                <li><img src="images\twitter.svg" /></li>
+                <li><img src="images\facebook.svg" /></li>
+                <li><img src="images\youtube.svg" /></li>
+                <li><img src="images\pinterest.svg" /></li>
+                <li><img src="images\instagram.svg" /></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

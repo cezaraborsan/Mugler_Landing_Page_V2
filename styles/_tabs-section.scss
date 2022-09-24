@@ -1,0 +1,181 @@
+.tabs-section,
+.exceptions-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 4.5rem 0;
+}
+
+.tab-control,
+.tab,
+.exceptions-content {
+  display: flex;
+  flex-flow: row, wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.tab-item,
+.exception-item {
+  img {
+    width: clamp(13rem, 22vw, 20rem);
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      opacity: 0.7;
+      border: 1px solid black;
+      border-radius: 4px;
+    }
+  }
+
+  .parfum-details {
+    .tags {
+      padding-block: 1rem;
+      .new,
+      .reffillable {
+        font-weight: 700;
+        font-size: 12px;
+        padding: 4px 8px;
+        border-radius: 2px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .new {
+        background-color: #6b88c0;
+      }
+
+      .reffillable {
+        background-color: #0f0f0f;
+      }
+    }
+  }
+
+  p {
+    font-weight: 400;
+    font-size: clamp(0.6rem, 1rem, 8vw);
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #4b4b4b;
+  }
+}
+
+.tab-btn {
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgba(15, 15, 15, 0.25);
+  padding: 0 0 2rem;
+  background-color: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+
+  &:hover {
+    color: rgba(15, 15, 15, 0.5);
+  }
+}
+
+.discover-btn {
+  border: 1px solid rgba(15, 15, 15, 0.25);
+  margin-top: 1.5rem;
+  background-color: inherit;
+  color: black;
+
+  &:hover {
+    border-color: #0f0f0f;
+  }
+
+  &:active {
+    background-color: #e7e7e7;
+  }
+}
+
+h3 {
+  font-size: clamp(0.8rem, 10vw, 1.5rem);
+  font-weight: 500;
+  padding: 1rem 0 0.5rem;
+}
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: flex;
+}
+
+.tab-btn.active {
+  color: black;
+  font-weight: 500;
+}
+
+.tab-item {
+  img {
+    border: 1px solid rgba(15, 15, 15, 0.25);
+    border-radius: 4px;
+
+    &:hover {
+      border-color: black;
+    }
+  }
+}
+
+// Exceptions section
+
+.exceptions-section {
+  padding: 3rem 0 4.5rem;
+  .exceptions-title {
+    text-align: center;
+    h2 {
+      padding-bottom: 0.5rem;
+    }
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      color: #0f0f0f;
+      opacity: 0.5;
+      padding-bottom: 2rem;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .tabs-section,
+  .exceptions-section {
+    margin: 0;
+  }
+
+  .tab,
+  .tab-control {
+    padding: 0 1rem;
+    justify-content: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    overflow: scroll;
+  }
+
+  .tab-control::-webkit-scrollbar,
+  .tab::-webkit-scrollbar,
+  .exceptions-content::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .exceptions-section {
+    .exceptions-title {
+      text-align: left;
+      padding: 0 1rem;
+    }
+  }
+
+  .exceptions-content {
+    padding: 0 1rem;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: left;
+    overflow: scroll;
+  }
+}

@@ -1,0 +1,153 @@
+@mixin row {
+  display: flex;
+  flex-flow: row wrap;
+  color: white;
+  text-align: center;
+}
+
+.explore-section {
+  .explore-row {
+    .explore-col-1 {
+      img {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .row-1,
+  .row-5 {
+    .explore-col-2 {
+      background-color: #6b88c0;
+    }
+  }
+
+  .row-2,
+  .row-3,
+  .row-4,
+  .row-6 {
+    .explore-col-2 {
+      background-color: #0f0f0f;
+    }
+  }
+
+  .row-1,
+  .row-2,
+  .row-5,
+  .row-6 {
+    padding-top: 24px;
+  }
+
+  .row-2,
+  .row-4,
+  .row-6 {
+    flex-direction: row-reverse;
+  }
+
+  .row-4,
+  .row-5,
+  .row-6 {
+    .explore-col-2 {
+      .col-content {
+        text-align: left;
+        max-width: 30rem;
+        padding: 0 2rem;
+
+        h2 {
+          padding-bottom: 1rem;
+        }
+
+        p {
+          font-weight: 400;
+          line-height: 1.2;
+          padding: 0 0 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+.explore-row {
+  @include row;
+
+  .explore-col-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .explore-col-1,
+  .explore-col-2 {
+    width: 50%;
+  }
+}
+
+.col-content {
+  .explore-btn {
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.25);
+    }
+    &:active {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .explore-section {
+    padding-top: 0;
+    .row-2 {
+      flex-direction: column;
+      padding-top: 0;
+    }
+
+    .row-4,
+    .row-5,
+    .row-6 {
+      .explore-col-2 {
+        .col-content {
+          text-align: center;
+        }
+      }
+    }
+    .row-1,
+    .row-5,
+    .row-6 {
+      padding-top: 0px;
+    }
+  }
+
+  .explore-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .explore-col-1,
+    .explore-col-2 {
+      width: 100%;
+    }
+    .explore-col-2 {
+      padding-block: 3rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .explore-row {
+    .explore-col-1 {
+      img {
+        height: auto;
+        max-height: 60vh;
+        width: 100%;
+      }
+    }
+  }
+}
