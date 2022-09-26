@@ -4,8 +4,7 @@ class Header extends HTMLElement {
   }
 
   connectedCallback() {
-    this.innerHTML = ` <header class="header">
-
+    this.innerHTML = `<header class="header">
     <div class="top-bar">
       <div class="mobile-menu">
         <button class="hamburger-icon">
@@ -306,9 +305,8 @@ const nextBtn = document.querySelector(".next");
 
 //Search input
 
-searchBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-  searchInput.classList.toggle("opacity");
+searchBtn.addEventListener("click", () => {
+  searchInput.classList.add("opacity");
 });
 
 let isVisible = false;
