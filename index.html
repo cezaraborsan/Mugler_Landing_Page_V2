@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles\style.css" />
-    <script src="components/header.js" type="text/javascript" defer></script>
-    <script src="components/footer.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="styles\style.css" type="text/css" />
+
     <title>MUGLER</title>
   </head>
   <body>
-    <header class="header">
+    <header-component></header-component>
+    <!-- <header class="header">
       <div class="top-bar">
         <div class="mobile-menu">
           <button class="hamburger-icon">
@@ -19,15 +19,15 @@
             <span class="bar"></span>
           </button>
           <button class="search-icon">
-            <img src="images\Search-icon.svg" />
+            <img src="images\search-icon.svg" />
           </button>
         </div>
         <form class="search-form">
           <button class="search-btn">
-            <img src="images\Search-icon.svg" />
+            <img src="images\search-icon.svg" />
           </button>
           <div class="search-input-container">
-            <img src="images\Search-icon.svg" />
+            <img src="images\search-icon.svg" />
             <input
               type="search"
               placeholder="Search.."
@@ -40,7 +40,7 @@
         <div class="logo">
           <a href="#"
             ><img
-              src="images\MUGLER-logo.svg"
+              src="images\mugler-logo.svg"
               alt="MUGLER"
               class="top-bar-logo"
           /></a>
@@ -49,11 +49,11 @@
         <div class="top-bar-buttons">
           <button class="account-btn">
             <a href="login.html"
-              ><img src="images\Account-icon.svg" alt="tiny man"
+              ><img src="images\account-icon.svg" alt="tiny man"
             /></a>
           </button>
           <button class="basket-btn">
-            <img src="images\Basket-icon.svg" alt="basket" />
+            <img src="images\basket-icon.svg" alt="basket" />
           </button>
         </div>
       </div>
@@ -63,7 +63,7 @@
           <li class="menu-item nav-expand">
             <a href="#" class="menu-bar-link nav-expand-link">
               Frangrance
-              <img class="menu-chevron" src="images\Chevron-menu.svg" alt=""
+              <img class="menu-chevron" src="images\chevron-menu.svg" alt=""
             /></a>
             <div class="menu-sub nav-expand-content">
               <div class="menu-flex">
@@ -72,7 +72,7 @@
                     New
                     <img
                       class="menu-chevron"
-                      src="images\Chevron-menu.svg"
+                      src="images\chevron-menu.svg"
                       alt=""
                     />
                   </a>
@@ -87,7 +87,7 @@
                       Gifts
                       <img
                         class="menu-chevron"
-                        src="images\Chevron-menu.svg"
+                        src="images\chevron-menu.svg"
                         alt=""
                       />
                     </a>
@@ -103,7 +103,7 @@
                     Womens' Fragrance
                     <img
                       class="menu-chevron"
-                      src="images\Chevron-menu.svg"
+                      src="images\chevron-menu.svg"
                       alt=""
                     />
                   </a>
@@ -123,7 +123,7 @@
                     Mens' Fragrance
                     <img
                       class="menu-chevron"
-                      src="images\Chevron-menu.svg"
+                      src="images\chevron-menu.svg"
                       alt=""
                     />
                   </a>
@@ -138,7 +138,7 @@
                     Exclusivities
                     <img
                       class="menu-chevron"
-                      src="images\Chevron-menu.svg"
+                      src="images\chevron-menu.svg"
                       alt=""
                     />
                   </a>
@@ -155,7 +155,7 @@
                     Selections
                     <img
                       class="menu-chevron"
-                      src="images\Chevron-menu.svg"
+                      src="images\chevron-menu.svg"
                       alt=""
                     />
                   </a>
@@ -174,7 +174,7 @@
           <li class="menu-item nav-expand">
             <a href="#" class="menu-bar-link nav-expand-link">
               Fashion
-              <img class="menu-chevron" src="images\Chevron-menu.svg" alt=""
+              <img class="menu-chevron" src="images\chevron-menu.svg" alt=""
             /></a>
             <div class="menu-sub nav-expand-content">
               <div class="menu-flex">
@@ -183,7 +183,7 @@
                     Collections
                     <img
                       class="menu-chevron"
-                      src="images\Chevron-menu.svg"
+                      src="images\chevron-menu.svg"
                       alt=""
                     />
                   </p>
@@ -194,7 +194,7 @@
                     Collections 2
                     <img
                       class="menu-chevron"
-                      src="images\Chevron-menu.svg"
+                      src="images\chevron-menu.svg"
                       alt=""
                     />
                   </p>
@@ -205,7 +205,7 @@
                     Collections 3
                     <img
                       class="menu-chevron"
-                      src="images\Chevron-menu.svg"
+                      src="images\chevron-menu.svg"
                       alt=""
                     />
                   </p>
@@ -217,7 +217,7 @@
           <li class="menu-item nav-expand">
             <a href="#" class="menu-bar-link nav-expand-link">
               The fountain
-              <img class="menu-chevron" src="images\Chevron-menu.svg" alt=""
+              <img class="menu-chevron" src="images\chevron-menu.svg" alt=""
             /></a>
             <div class="menu-sub nav-expand-content">
               <div class="menu-flex">
@@ -226,7 +226,7 @@
                     Fountain 1
                     <img
                       class="menu-chevron"
-                      src="images\Chevron-menu.svg"
+                      src="images\chevron-menu.svg"
                       alt=""
                     />
                   </p>
@@ -237,7 +237,7 @@
                     Fountain 2
                     <img
                       class="menu-chevron"
-                      src="images\Chevron-menu.svg"
+                      src="images\chevron-menu.svg"
                       alt=""
                     />
                   </p>
@@ -248,7 +248,7 @@
                     Fountain 3
                     <img
                       class="menu-chevron"
-                      src="images\Chevron-menu.svg"
+                      src="images\chevron-menu.svg"
                       alt=""
                     />
                   </p>
@@ -259,14 +259,15 @@
           <li class="menu-item nav-expand">
             <a href="#" class="menu-bar-link nav-expand-link">
               About
-              <img class="menu-chevron" src="images\Chevron-menu.svg" alt=""
+              <img class="menu-chevron" src="images\chevron-menu.svg" alt=""
             /></a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <div id="overlay"></div>
+    <div id="overlay"></div> -->
+
     <main class="container">
       <section class="hero-section">
         <div class="slide slide-1 active">
@@ -792,10 +793,10 @@
       </section>
     </main>
 
-    <footer>
+    <!-- <footer>
       <div class="footer-content">
         <div class="footer-logo">
-          <img src="images\Mugler Logo.svg" alt="MUGLER" />
+          <img src="images\mugler Logo.svg" alt="MUGLER" />
         </div>
         <nav class="footer-menu">
           <div class="footer-col">
@@ -909,7 +910,11 @@
           </div>
         </section>
       </div>
-    </footer>
+    </footer> -->
+    <footer-component></footer-component>
+
+    <script src="header.js"></script>
     <script src="app.js"></script>
+    <script src="footer.js"></script>
   </body>
 </html>

@@ -4,7 +4,7 @@ class Header extends HTMLElement {
   }
 
   connectedCallback() {
-    this.innerHTML = ` <header class="header">
+    this.innerHTML = `<header class="header">
     <div class="top-bar">
       <div class="mobile-menu">
         <button class="hamburger-icon">
@@ -13,15 +13,15 @@ class Header extends HTMLElement {
           <span class="bar"></span>
         </button>
         <button class="search-icon">
-          <img src="../images/Search-icon.svg" />
+          <img src="./images/search-icon.svg" />
         </button>
       </div>
       <form class="search-form">
         <button class="search-btn">
-          <img src="../images/Search-icon.svg" />
+          <img src="./images/search-icon.svg" />
         </button>
         <div class="search-input-container">
-          <img src="../images/Search-icon.svg" />
+          <img src="./images/search-icon.svg" />
           <input
             type="search"
             placeholder="Search.."
@@ -34,7 +34,7 @@ class Header extends HTMLElement {
       <div class="logo">
         <a href="index.html"
           ><img
-            src="../images/MUGLER-logo.svg"
+            src="./images/mugler-logo.svg"
             alt="MUGLER"
             class="top-bar-logo"
         /></a>
@@ -43,11 +43,11 @@ class Header extends HTMLElement {
       <div class="top-bar-buttons">
         <button class="account-btn">
           <a href="login.html"
-            ><img src="../images/Account-icon.svg" alt="tiny man"
+            ><img src="./images/account-icon.svg" alt="tiny man"
           /></a>
         </button>
         <button class="basket-btn">
-          <img src="../images/Basket-icon.svg" alt="basket" />
+          <img src="./images/basket-icon.svg" alt="basket" />
         </button>
       </div>
     </div>
@@ -57,7 +57,7 @@ class Header extends HTMLElement {
         <li class="menu-item nav-expand">
           <a href="#" class="menu-bar-link nav-expand-link">
             Frangrance
-            <img class="menu-chevron" src="../images/Chevron-menu.svg" alt=""
+            <img class="menu-chevron" src="./images/chevron-menu.svg" alt=""
           /></a>
           <div class="menu-sub nav-expand-content">
             <div class="menu-flex">
@@ -66,7 +66,7 @@ class Header extends HTMLElement {
                   New
                   <img
                     class="menu-chevron"
-                    src="../images/Chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </a>
@@ -81,7 +81,7 @@ class Header extends HTMLElement {
                     Gifts
                     <img
                       class="menu-chevron"
-                      src="../images/Chevron-menu.svg"
+                      src="./images/chevron-menu.svg"
                       alt=""
                     />
                   </a>
@@ -97,7 +97,7 @@ class Header extends HTMLElement {
                   Womens' Fragrance
                   <img
                     class="menu-chevron"
-                    src="../images/Chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </a>
@@ -117,7 +117,7 @@ class Header extends HTMLElement {
                   Mens' Fragrance
                   <img
                     class="menu-chevron"
-                    src="../images/Chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </a>
@@ -132,7 +132,7 @@ class Header extends HTMLElement {
                   Exclusivities
                   <img
                     class="menu-chevron"
-                    src="../images/Chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </a>
@@ -149,7 +149,7 @@ class Header extends HTMLElement {
                   Selections
                   <img
                     class="menu-chevron"
-                    src="../images/Chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </a>
@@ -168,7 +168,7 @@ class Header extends HTMLElement {
         <li class="menu-item nav-expand">
           <a href="#" class="menu-bar-link nav-expand-link">
             Fashion
-            <img class="menu-chevron" src="../images/Chevron-menu.svg" alt=""
+            <img class="menu-chevron" src="./images/chevron-menu.svg" alt=""
           /></a>
           <div class="menu-sub nav-expand-content">
             <div class="menu-flex">
@@ -177,7 +177,7 @@ class Header extends HTMLElement {
                   Collections
                   <img
                     class="menu-chevron"
-                    src="images\Chevron-menu.svg"
+                    src="images/chevron-menu.svg"
                     alt=""
                   />
                 </p>
@@ -188,7 +188,7 @@ class Header extends HTMLElement {
                   Collections 2
                   <img
                     class="menu-chevron"
-                    src="../images/Chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </p>
@@ -199,7 +199,7 @@ class Header extends HTMLElement {
                   Collections 3
                   <img
                     class="menu-chevron"
-                    src="../images/Chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </p>
@@ -211,7 +211,7 @@ class Header extends HTMLElement {
         <li class="menu-item nav-expand">
           <a href="#" class="menu-bar-link nav-expand-link">
             The fountain
-            <img class="menu-chevron" src="../images/Chevron-menu.svg" alt=""
+            <img class="menu-chevron" src="./images/chevron-menu.svg" alt=""
           /></a>
           <div class="menu-sub nav-expand-content">
             <div class="menu-flex">
@@ -220,7 +220,7 @@ class Header extends HTMLElement {
                   Fountain 1
                   <img
                     class="menu-chevron"
-                    src="../images/Chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </p>
@@ -231,7 +231,7 @@ class Header extends HTMLElement {
                   Fountain 2
                   <img
                     class="menu-chevron"
-                    src="../images/Chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </p>
@@ -242,7 +242,7 @@ class Header extends HTMLElement {
                   Fountain 3
                   <img
                     class="menu-chevron"
-                    src="../images/Chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </p>
@@ -253,13 +253,142 @@ class Header extends HTMLElement {
         <li class="menu-item nav-expand">
           <a href="#" class="menu-bar-link nav-expand-link">
             About
-            <img class="menu-chevron" src="../images/Chevron-menu.svg" alt=""
+            <img class="menu-chevron" src="./images/chevron-menu.svg" alt=""
           /></a>
         </li>
       </ul>
     </nav>
-  </header>`;
+  </header>
+  <div id="overlay"></div>
+  `;
   }
 }
 
 customElements.define("header-component", Header);
+
+const searchInput = document.querySelector(".search-input");
+const searchBtn = document.querySelector(".search-btn");
+const header = document.querySelector("header");
+const main = document.querySelector("main");
+// const tabs = document.querySelectorAll("[data-tab-target]");
+// const tabContents = document.querySelectorAll("[data-tab-content]");
+const searchIconMobile = document.querySelector(".search-icon");
+const searchForm = document.querySelector(".search-form");
+const overlay = document.getElementById("overlay");
+const searchContainer = document.querySelector(".search-input-container");
+
+const hamburgerBtn = document.querySelector(".hamburger-icon");
+const navBar = document.querySelector("nav");
+const menuLink = document.querySelectorAll(".menu-bar-link");
+const menuChevron = document.querySelectorAll(".menu-chevron");
+const menuBackArrow = document.querySelectorAll(".menu-arrow-back");
+const subMenu = document.querySelector(".menu-sub");
+const menuItem = document.querySelectorAll(".menu-item");
+
+const expandList = [].slice.call(document.querySelectorAll(".nav-expand"));
+const expandLink = document.querySelectorAll(".nav-expand-link");
+const expendContent = document.querySelectorAll(".nav-expand-content");
+
+const backLink = `<li class="nav-item">
+	<a class="nav-link nav-back-link" href="javascript:;">
+   Back
+	</a>
+</li>`;
+
+const mql = window.matchMedia("(min-width: 992px)");
+const mobileReset = window.matchMedia("(max-width: 992px)");
+
+// const prevBtn = document.querySelector(".prev");
+// const nextBtn = document.querySelector(".next");
+
+//Sticky navbar
+
+//Search input
+
+searchBtn.addEventListener("click", () => {
+  searchInput.classList.add("opacity");
+});
+
+let isVisible = false;
+
+searchIconMobile.addEventListener("click", () => {
+  if (!isVisible) {
+    searchForm.classList.add("display");
+    overlay.style.opacity = "1";
+    overlay.style.visibility = "visible";
+    isVisible = !isVisible;
+  } else {
+    searchForm.classList.remove("display");
+    overlay.style.opacity = "0";
+    overlay.style.visibility = "hidden";
+    isVisible = !isVisible;
+  }
+});
+
+searchIconMobile.addEventListener("click", () => {
+  if ((navBar.classList.contains = "navdisplay")) {
+    navBar.classList.remove("nav-display");
+  }
+});
+
+document.addEventListener("mouseup", function (e) {
+  if (!searchForm.contains(e.target)) {
+    searchForm.classList.remove("display");
+    overlay.style.opacity = "0";
+    overlay.style.visibility = "hidden";
+  }
+});
+
+document.addEventListener("mouseup", function (e) {
+  if (!searchContainer.contains(e.target)) {
+    searchInput.classList.add("opacity");
+  }
+});
+
+//Hamburger menu
+
+mobileReset.onchange = (e) => {
+  if (e.matches) {
+    hamburgerBtn.classList.remove("active");
+    navBar.classList.remove("nav-display");
+  }
+};
+
+mql.onchange = (e) => {
+  if (e.matches) {
+    expendContent.forEach((content) => {
+      content.style.transform = "translateX(0%)";
+    });
+  }
+};
+
+hamburgerBtn.addEventListener("click", () => {
+  expendContent.forEach((content) => {
+    content.style.transform = "translateX(-100%)";
+  });
+  hamburgerBtn.classList.toggle("active");
+  navBar.classList.toggle("nav-display");
+});
+
+expandList.forEach((item) => {
+  item
+    .querySelector(".nav-expand-content")
+    .insertAdjacentHTML("afterbegin", backLink);
+
+  item
+    .querySelector(".nav-expand-link")
+    .addEventListener(
+      "click",
+      () =>
+        (item.querySelector(".nav-expand-content").style.transform =
+          "translateX(0%)")
+    );
+  item
+    .querySelector(".nav-back-link")
+    .addEventListener(
+      "click",
+      () =>
+        (item.querySelector(".nav-expand-content").style.transform =
+          "translateX(-100%)")
+    );
+});

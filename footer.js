@@ -8,7 +8,7 @@ class Footer extends HTMLElement {
    <footer>
      <div class="footer-content">
        <div class="footer-logo">
-         <img src="../images/Mugler Logo.svg" alt="MUGLER" />
+         <img src="./images/mugler_logo.svg" alt="MUGLER" />
        </div>
        <nav class="footer-menu">
          <div class="footer-col">
@@ -112,11 +112,11 @@ class Footer extends HTMLElement {
            <p>FIND A STORE</p>
            <div class="social-wrapper">
              <ul>
-               <li><img src="../images/twitter.svg" /></li>
-               <li><img src="../images/facebook.svg" /></li>
-               <li><img src="../images/youtube.svg" /></li>
-               <li><img src="../images/pinterest.svg" /></li>
-               <li><img src="../images/instagram.svg" /></li>
+               <li><img src="./images/twitter.svg" /></li>
+               <li><img src="./images/facebook.svg" /></li>
+               <li><img src="./images/youtube.svg" /></li>
+               <li><img src="./images/pinterest.svg" /></li>
+               <li><img src="./images/instagram.svg" /></li>
              </ul>
            </div>
          </div>
