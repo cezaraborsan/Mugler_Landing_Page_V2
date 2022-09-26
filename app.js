@@ -58,6 +58,12 @@ searchIconMobile.addEventListener("click", () => {
   }
 });
 
+searchIconMobile.addEventListener("click", () => {
+  if ((navBar.classList.contains = "navdisplay")) {
+    navBar.classList.remove("nav-display");
+  }
+});
+
 document.addEventListener("mouseup", function (e) {
   if (!searchForm.contains(e.target)) {
     searchForm.classList.remove("display");
