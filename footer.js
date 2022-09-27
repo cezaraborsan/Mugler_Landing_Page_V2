@@ -112,7 +112,7 @@ class Footer extends HTMLElement {
            <p>FIND A STORE</p>
            <div class="social-wrapper">
              <ul>
-               <li><img src="./images/twitter.svg" /></li>
+               <li><img src="./images/mugler_logo.svg" /></li>
                <li><img src="../images/facebook.svg" /></li>
                <li><img src="./images/youtube.svg" /></li>
                <li><img src="./images/pinterest.svg" /></li>
