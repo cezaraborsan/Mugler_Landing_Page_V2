@@ -43,7 +43,7 @@ class Header extends HTMLElement {
       <div class="top-bar-buttons">
         <button class="account-btn">
           <a href="login.html"
-            ><img src="../images/account-icon.svg" alt="account"
+            ><img src="images\account-icon.svg" alt="account"
           /></a>
         </button>
         <button class="basket-btn">
