@@ -8,7 +8,7 @@ class Footer extends HTMLElement {
    <footer>
      <div class="footer-content">
        <div class="footer-logo">
-         <img src="./images/mugler_logo.svg" alt="MUGLER" />
+         <img src="./images/mugler-logo.svg" alt="MUGLER" />
        </div>
        <nav class="footer-menu">
          <div class="footer-col">
