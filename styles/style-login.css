@@ -406,7 +406,7 @@ header .top-bar .mobile-menu .hamburger-icon.active .bar:nth-child(3) {
     font-weight: 700;
   }
   header .nav-back-link::before {
-    content: url(../images/Arrow-back-menu.svg);
+    content: url(../images/arrow-back-menu.svg);
     padding-right: 0.5rem;
     -webkit-transform: translateY(1px);
             transform: translateY(1px);

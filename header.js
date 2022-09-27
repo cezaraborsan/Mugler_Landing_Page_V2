@@ -13,15 +13,15 @@ class Header extends HTMLElement {
           <span class="bar"></span>
         </button>
         <button class="search-icon">
-          <img src="../images/search-icon.svg" />
+          <img src="./images/search-icon.svg" />
         </button>
       </div>
       <form class="search-form">
         <button class="search-btn">
-          <img src="../images/search-icon.svg" />
+          <img src="./images/search-icon.svg" />
         </button>
         <div class="search-input-container">
-          <img src="../images/search-icon.svg" />
+          <img src="./images/search-icon.svg" />
           <input
             type="search"
             placeholder="Search.."
@@ -34,7 +34,7 @@ class Header extends HTMLElement {
       <div class="logo">
         <a href="index.html"
           ><img
-            src="../images/mugler-logo.svg"
+            src="./images/mugler-logo.svg"
             alt="MUGLER"
             class="top-bar-logo"
         /></a>
@@ -43,11 +43,11 @@ class Header extends HTMLElement {
       <div class="top-bar-buttons">
         <button class="account-btn">
           <a href="login.html"
-            ><img src="../images/account-icon.svg" alt="tiny man"
+            ><img src="./images/account-icon.svg" alt="tiny man"
           /></a>
         </button>
         <button class="basket-btn">
-          <img src="../images/basket-icon.svg" alt="basket" />
+          <img src="./images/basket-icon.svg" alt="basket" />
         </button>
       </div>
     </div>
@@ -57,7 +57,7 @@ class Header extends HTMLElement {
         <li class="menu-item nav-expand">
           <a href="#" class="menu-bar-link nav-expand-link">
             Frangrance
-            <img class="menu-chevron" src="images/chevron-menu.svg" alt=""
+            <img class="menu-chevron" src="./images/chevron-menu.svg" alt=""
           /></a>
           <div class="menu-sub nav-expand-content">
             <div class="menu-flex">
@@ -66,7 +66,7 @@ class Header extends HTMLElement {
                   New
                   <img
                     class="menu-chevron"
-                    src="images/chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </a>
@@ -81,7 +81,7 @@ class Header extends HTMLElement {
                     Gifts
                     <img
                       class="menu-chevron"
-                      src="images/chevron-menu.svg"
+                      src="./images/chevron-menu.svg"
                       alt=""
                     />
                   </a>
@@ -97,7 +97,7 @@ class Header extends HTMLElement {
                   Womens' Fragrance
                   <img
                     class="menu-chevron"
-                    src="images/chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </a>
@@ -117,7 +117,7 @@ class Header extends HTMLElement {
                   Mens' Fragrance
                   <img
                     class="menu-chevron"
-                    src="images/chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </a>
@@ -132,7 +132,7 @@ class Header extends HTMLElement {
                   Exclusivities
                   <img
                     class="menu-chevron"
-                    src="images/chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </a>
@@ -149,7 +149,7 @@ class Header extends HTMLElement {
                   Selections
                   <img
                     class="menu-chevron"
-                    src="images/chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </a>
@@ -168,7 +168,7 @@ class Header extends HTMLElement {
         <li class="menu-item nav-expand">
           <a href="#" class="menu-bar-link nav-expand-link">
             Fashion
-            <img class="menu-chevron" src="images/chevron-menu.svg" alt=""
+            <img class="menu-chevron" src="./images/chevron-menu.svg" alt=""
           /></a>
           <div class="menu-sub nav-expand-content">
             <div class="menu-flex">
@@ -188,7 +188,7 @@ class Header extends HTMLElement {
                   Collections 2
                   <img
                     class="menu-chevron"
-                    src="images/chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </p>
@@ -199,7 +199,7 @@ class Header extends HTMLElement {
                   Collections 3
                   <img
                     class="menu-chevron"
-                    src="images/chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </p>
@@ -211,7 +211,7 @@ class Header extends HTMLElement {
         <li class="menu-item nav-expand">
           <a href="#" class="menu-bar-link nav-expand-link">
             The fountain
-            <img class="menu-chevron" src="images/chevron-menu.svg" alt=""
+            <img class="menu-chevron" src="./images/chevron-menu.svg" alt=""
           /></a>
           <div class="menu-sub nav-expand-content">
             <div class="menu-flex">
@@ -220,7 +220,7 @@ class Header extends HTMLElement {
                   Fountain 1
                   <img
                     class="menu-chevron"
-                    src="images/chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </p>
@@ -231,7 +231,7 @@ class Header extends HTMLElement {
                   Fountain 2
                   <img
                     class="menu-chevron"
-                    src="images/chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </p>
@@ -242,7 +242,7 @@ class Header extends HTMLElement {
                   Fountain 3
                   <img
                     class="menu-chevron"
-                    src="images/chevron-menu.svg"
+                    src="./images/chevron-menu.svg"
                     alt=""
                   />
                 </p>
@@ -253,7 +253,7 @@ class Header extends HTMLElement {
         <li class="menu-item nav-expand">
           <a href="#" class="menu-bar-link nav-expand-link">
             About
-            <img class="menu-chevron" src="images/chevron-menu.svg" alt=""
+            <img class="menu-chevron" src="./images/chevron-menu.svg" alt=""
           /></a>
         </li>
       </ul>
