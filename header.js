@@ -34,7 +34,7 @@ class Header extends HTMLElement {
       <div class="logo">
         <a href="index.html"
           ><img
-            src="C:\Users\Ce\Desktop\Mugler_V2\images\mugler-logo.svg"
+            src="./images/twitter.svg"
             alt="MUGLER"
             class="top-bar-logo"
         /></a>
@@ -43,7 +43,7 @@ class Header extends HTMLElement {
       <div class="top-bar-buttons">
         <button class="account-btn">
           <a href="login.html"
-            ><img src="images\account-icon.svg" alt="account"
+            ><img src="./images/twitter.svg" alt="account"
           /></a>
         </button>
         <button class="basket-btn">
