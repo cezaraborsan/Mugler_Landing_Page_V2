@@ -13,15 +13,15 @@ class Header extends HTMLElement {
           <span class="bar"></span>
         </button>
         <button class="search-icon">
-          <img src="./images/search-icon.svg" />
+          <img src="./images/search.svg" />
         </button>
       </div>
       <form class="search-form">
         <button class="search-btn">
-          <img src="../images/search-icon.svg" />
+          <img src="./images/search.svg" />
         </button>
         <div class="search-input-container">
-          <img src="../images/search-icon.svg" />
+          <img src="./images/search.svg" />
           <input
             type="search"
             placeholder="Search.."
@@ -34,7 +34,7 @@ class Header extends HTMLElement {
       <div class="logo">
         <a href="index.html"
           ><img
-            src="../images/mugler-logo.svg"
+            src="./images/muglerlogo.svg"
             alt="MUGLER"
             class="top-bar-logo"
         /></a>
@@ -47,7 +47,7 @@ class Header extends HTMLElement {
           /></a>
         </button>
         <button class="basket-btn">
-          <img src="../images/basket.svg" alt="basket" />
+          <img src="./images/basket.svg" alt="basket" />
         </button>
       </div>
     </div>
