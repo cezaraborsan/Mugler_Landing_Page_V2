@@ -13,7 +13,7 @@ class Header extends HTMLElement {
           <span class="bar"></span>
         </button>
         <button class="search-icon">
-          <img src="../search-icon.svg" />
+          <img src="./images/search-icon.svg" />
         </button>
       </div>
       <form class="search-form">
@@ -34,7 +34,7 @@ class Header extends HTMLElement {
       <div class="logo">
         <a href="index.html"
           ><img
-            src="../mugler-logo.svg"
+            src="../images/mugler-logo.svg"
             alt="MUGLER"
             class="top-bar-logo"
         /></a>
@@ -43,11 +43,11 @@ class Header extends HTMLElement {
       <div class="top-bar-buttons">
         <button class="account-btn">
           <a href="login.html"
-            ><img src="../account-icon.svg" alt="account"
+            ><img src="../images/account_icon.svg" alt="account"
           /></a>
         </button>
         <button class="basket-btn">
-          <img src="images/basket-icon.svg" alt="basket" />
+          <img src="./images/basket_icon.svg" alt="basket" />
         </button>
       </div>
     </div>
