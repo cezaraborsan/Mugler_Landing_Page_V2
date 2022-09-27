@@ -270,8 +270,8 @@ const searchInput = document.querySelector(".search-input");
 const searchBtn = document.querySelector(".search-btn");
 const header = document.querySelector("header");
 const main = document.querySelector("main");
-const tabs = document.querySelectorAll("[data-tab-target]");
-const tabContents = document.querySelectorAll("[data-tab-content]");
+// const tabs = document.querySelectorAll("[data-tab-target]");
+// const tabContents = document.querySelectorAll("[data-tab-content]");
 const searchIconMobile = document.querySelector(".search-icon");
 const searchForm = document.querySelector(".search-form");
 const overlay = document.getElementById("overlay");
@@ -298,8 +298,8 @@ const backLink = `<li class="nav-item">
 const mql = window.matchMedia("(min-width: 992px)");
 const mobileReset = window.matchMedia("(max-width: 992px)");
 
-const prevBtn = document.querySelector(".prev");
-const nextBtn = document.querySelector(".next");
+// const prevBtn = document.querySelector(".prev");
+// const nextBtn = document.querySelector(".next");
 
 //Sticky navbar
 
