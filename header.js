@@ -17,7 +17,7 @@ class Header extends HTMLElement {
         </button>
       </div>
       <form class="search-form">
-        <button class="search-btn">
+        <button class="search-btn" type ="button" >
           <img src="./images/search.svg" />
         </button>
         <div class="search-input-container">
@@ -149,7 +149,7 @@ class Header extends HTMLElement {
                   Selections
                   <img
                     class="menu-chevron"
-                    src="./images/chevromenu.svg"
+                    src="./images/chevronmenu.svg"
                     alt=""
                   />
                 </a>
@@ -305,8 +305,9 @@ const mobileReset = window.matchMedia("(max-width: 992px)");
 
 //Search input
 
-searchBtn.addEventListener("click", () => {
-  searchInput.classList.add("opacity");
+searchBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  searchInput.classList.toggle("opacity");
 });
 
 let isVisible = false;
