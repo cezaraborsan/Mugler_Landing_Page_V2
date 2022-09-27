@@ -34,7 +34,7 @@ class Header extends HTMLElement {
       <div class="logo">
         <a href="index.html"
           ><img
-            src="./images/mugler-logo.svg"
+            src="C:\Users\Ce\Desktop\Mugler_V2\images\mugler-logo.svg"
             alt="MUGLER"
             class="top-bar-logo"
         /></a>
