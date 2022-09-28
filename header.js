@@ -16,7 +16,7 @@ class Header extends HTMLElement {
           <img src="./images/search.svg" />
         </button>
       </div>
-      <form class="search-form">
+      <form class="search-form form">
         <button class="search-btn" type ="button" >
           <img src="./images/search.svg" />
         </button>
@@ -242,7 +242,7 @@ class Header extends HTMLElement {
                   Fountain 3
                   <img
                     class="menu-chevron"
-                    src="./images/chevronmenu.svg"
+                    src="./images/chevronmenu.svgs"
                     alt=""
                   />
                 </p>

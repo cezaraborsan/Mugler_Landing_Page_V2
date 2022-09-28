@@ -296,10 +296,11 @@ header {
   }
 
   // Mobile menu
-
-  form {
-    transform: translateX(-100%);
-    transition: all 0.2s;
+  header {
+    form {
+      transform: translateX(-100%);
+      transition: all 0.2s;
+    }
   }
 
   .search-form {

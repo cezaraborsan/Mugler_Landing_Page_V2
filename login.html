@@ -19,15 +19,20 @@
             <div class="col-2-content">
               <h1>MUGLER Account</h1>
               <p>Log in or register using your email account.</p>
-              <div class="form">
+              <form
+                action="login-password.html"
+                class="form login-form"
+                name="login-form"
+              >
                 <input
                   type="email"
                   name="email"
                   id="email"
                   placeholder="Email"
+                  required
                 />
                 <button type="submit">Continue</button>
-              </div>
+              </form>
               <p>
                 <span>OR</span>Get logged in with your social media account.
                 Make it fast and easy!
@@ -46,5 +51,6 @@
       </section>
     </main>
     <footer-component></footer-component>
+    <script src="login.js"></script>
   </body>
 </html>

@@ -890,7 +890,7 @@ header .top-bar .mobile-menu .hamburger-icon.active .bar:nth-child(3) {
   .top-bar .top-bar-buttons button:first-child {
     padding-right: 0;
   }
-  form {
+  header form {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     -webkit-transition: all 0.2s;

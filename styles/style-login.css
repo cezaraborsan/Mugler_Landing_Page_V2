@@ -311,7 +311,7 @@ header .top-bar .mobile-menu .hamburger-icon.active .bar:nth-child(3) {
   .top-bar .top-bar-buttons button:first-child {
     padding-right: 0;
   }
-  form {
+  header form {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     -webkit-transition: all 0.2s;
@@ -913,6 +913,10 @@ section .social img {
 
 .account .col-2-content p {
   padding-bottom: 1.5rem;
+}
+
+.login-password form {
+  width: 288px;
 }
 
 .login-password p {
