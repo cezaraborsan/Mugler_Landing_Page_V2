@@ -324,6 +324,40 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.wolford {
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+
+.wolford .wolford-mobile {
+  display: none;
+}
+
+.wolford .wolford-desktop {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.wolford h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.wolford button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
+
 @media (max-width: 992px) {
   .explore-section {
     padding-top: 0;
@@ -1314,7 +1348,6 @@ body::-webkit-scrollbar {
 .container {
   padding: 24px 24px 0 24px;
   width: 100%;
-  max-width: 1920px;
   min-width: 350px;
   margin: 0 auto;
 }
@@ -1346,6 +1379,13 @@ main button {
   font-size: 16px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+}
+
+.visible {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 @media (max-width: 992px) {

@@ -26,7 +26,6 @@ body::-webkit-scrollbar {
 .container {
   padding: 24px 24px 0 24px;
   width: 100%;
-  max-width: 1920px;
   min-width: 350px;
   margin: 0 auto;
 }
@@ -59,6 +58,11 @@ main {
     font-size: 16px;
     transition: all 0.2s;
   }
+}
+
+.visible {
+  transform: translateY(0);
+  transition: all 0.5s;
 }
 
 @media (max-width: 992px) {
