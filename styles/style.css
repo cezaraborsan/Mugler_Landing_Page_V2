@@ -19,8 +19,8 @@
 }
 
 .slide .hero-col-2 img {
-  aspect-ratio: 1 / 1;
   width: 100%;
+  max-height: 600px;
 }
 
 .arrow-btn {
