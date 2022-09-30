@@ -16,9 +16,10 @@
 
   .hero-col-2 {
     height: 100%;
+
     img {
-      object-fit: cover;
-      max-height: 80vh;
+      aspect-ratio: 1 / 1;
+      width: 100%;
     }
   }
 }
@@ -175,12 +176,6 @@
 
 @media (max-width: 576px) {
   .slide {
-    .hero-col-2 {
-      img {
-        max-height: 60vh;
-      }
-    }
-
     .hero-col-1-content {
       padding-block: 2rem;
     }

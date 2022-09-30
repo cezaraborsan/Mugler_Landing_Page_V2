@@ -8,6 +8,7 @@
 .explore-section {
   .explore-row {
     .explore-col-1 {
+      border-radius: 50px;
       img {
         display: inline-block;
         height: 100%;
@@ -20,7 +21,8 @@
   .row-1,
   .row-5 {
     .explore-col-2 {
-      background-color: #6b88c0;
+      color: black;
+      background-color: #e7e7e7;
     }
   }
 
@@ -67,6 +69,26 @@
       }
     }
   }
+
+  .row-2,
+  .row-3,
+  .row-4,
+  .row-6 {
+    .col-content {
+      .explore-btn {
+        background-color: inherit;
+        border: 1px solid white;
+        color: white;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.25);
+        }
+        &:active {
+          background-color: rgba(255, 255, 255, 0.5);
+        }
+      }
+    }
+  }
 }
 
 .explore-row {
@@ -86,9 +108,9 @@
 
 .col-content {
   .explore-btn {
-    background-color: inherit;
-    border: 1px solid white;
-    color: white;
+    background-color: white;
+    border: 1px solid rgba(15, 15, 15, 0.25);
+    color: black;
 
     &:hover {
       background-color: rgba(255, 255, 255, 0.25);
@@ -96,37 +118,6 @@
     &:active {
       background-color: rgba(255, 255, 255, 0.5);
     }
-  }
-}
-
-.wolford {
-  padding: 0;
-  width: 100%;
-  position: relative;
-  .wolford-mobile {
-    display: none;
-  }
-
-  .wolford-desktop {
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
-  }
-
-  h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-  }
-
-  button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
   }
 }
 

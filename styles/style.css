@@ -19,9 +19,8 @@
 }
 
 .slide .hero-col-2 img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  max-height: 80vh;
+  aspect-ratio: 1 / 1;
+  width: 100%;
 }
 
 .arrow-btn {
@@ -209,9 +208,6 @@
 }
 
 @media (max-width: 576px) {
-  .slide .hero-col-2 img {
-    max-height: 60vh;
-  }
   .slide .hero-col-1-content {
     padding-block: 2rem;
   }
@@ -224,6 +220,10 @@
   }
 }
 
+.explore-section .explore-row .explore-col-1 {
+  border-radius: 50px;
+}
+
 .explore-section .explore-row .explore-col-1 img {
   display: inline-block;
   height: 100%;
@@ -233,7 +233,8 @@
 
 .explore-section .row-1 .explore-col-2,
 .explore-section .row-5 .explore-col-2 {
-  background-color: #6b88c0;
+  color: black;
+  background-color: #e7e7e7;
 }
 
 .explore-section .row-2 .explore-col-2,
@@ -281,6 +282,29 @@
   padding: 0 0 1.5rem;
 }
 
+.explore-section .row-2 .col-content .explore-btn,
+.explore-section .row-3 .col-content .explore-btn,
+.explore-section .row-4 .col-content .explore-btn,
+.explore-section .row-6 .col-content .explore-btn {
+  background-color: inherit;
+  border: 1px solid white;
+  color: white;
+}
+
+.explore-section .row-2 .col-content .explore-btn:hover,
+.explore-section .row-3 .col-content .explore-btn:hover,
+.explore-section .row-4 .col-content .explore-btn:hover,
+.explore-section .row-6 .col-content .explore-btn:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.explore-section .row-2 .col-content .explore-btn:active,
+.explore-section .row-3 .col-content .explore-btn:active,
+.explore-section .row-4 .col-content .explore-btn:active,
+.explore-section .row-6 .col-content .explore-btn:active {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .explore-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,9 +335,9 @@
 }
 
 .col-content .explore-btn {
-  background-color: inherit;
-  border: 1px solid white;
-  color: white;
+  background-color: white;
+  border: 1px solid rgba(15, 15, 15, 0.25);
+  color: black;
 }
 
 .col-content .explore-btn:hover {
@@ -322,40 +346,6 @@
 
 .col-content .explore-btn:active {
   background-color: rgba(255, 255, 255, 0.5);
-}
-
-.wolford {
-  padding: 0;
-  width: 100%;
-  position: relative;
-}
-
-.wolford .wolford-mobile {
-  display: none;
-}
-
-.wolford .wolford-desktop {
-  width: 100%;
-  height: auto;
-  vertical-align: middle;
-}
-
-.wolford h2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-}
-
-.wolford button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, 50%);
-          transform: translate(-50%, 50%);
 }
 
 @media (max-width: 992px) {
@@ -473,7 +463,8 @@
 
 .tab-item .parfum-details .tags .new,
 .exception-item .parfum-details .tags .new {
-  background-color: #6b88c0;
+  background-color: #fde083;
+  color: black;
 }
 
 .tab-item .parfum-details .tags .reffillable,
@@ -999,10 +990,6 @@ header .top-bar .mobile-menu .hamburger-icon.active .bar:nth-child(3) {
   header nav .menu-main a {
     padding: 1rem 0;
   }
-  header nav .menu-main a .menu-chevron {
-    display: block;
-    float: right;
-  }
   header .active {
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -1023,6 +1010,11 @@ header .top-bar .mobile-menu .hamburger-icon.active .bar:nth-child(3) {
     padding-right: 0.5rem;
     -webkit-transform: translateY(1px);
             transform: translateY(1px);
+  }
+  header nav .menu-item .nav-expand-link::after {
+    content: url("../images/chevronmenu.svg");
+    display: block;
+    float: right;
   }
   header nav .menu-item .menu-sub,
   header nav .menu-item .menu-sub ul {
@@ -1048,11 +1040,6 @@ header .top-bar .mobile-menu .hamburger-icon.active .bar:nth-child(3) {
     padding: 1rem 0;
     margin: 0;
     border-bottom: 1px solid #e7e7e7;
-  }
-  header nav .menu-item .menu-sub .menu-category .menu-chevron,
-  header nav .menu-item .menu-sub ul .menu-category .menu-chevron {
-    display: block;
-    float: right;
   }
   header nav .menu-item .menu-sub .menu-flex,
   header nav .menu-item .menu-sub ul .menu-flex {
@@ -1379,13 +1366,6 @@ main button {
   font-size: 16px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-}
-
-.visible {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 @media (max-width: 992px) {

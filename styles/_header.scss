@@ -369,10 +369,6 @@ header {
 
         a {
           padding: 1rem 0;
-          .menu-chevron {
-            display: block;
-            float: right;
-          }
         }
       }
     }
@@ -398,6 +394,12 @@ header {
 
     nav {
       .menu-item {
+        .nav-expand-link::after {
+          content: url("../images/chevronmenu.svg");
+          display: block;
+          float: right;
+        }
+
         .menu-sub,
         .menu-sub ul {
           display: block;
@@ -419,11 +421,6 @@ header {
             padding: 1rem 0;
             margin: 0;
             border-bottom: 1px solid #e7e7e7;
-
-            .menu-chevron {
-              display: block;
-              float: right;
-            }
           }
 
           .menu-flex {

@@ -60,11 +60,6 @@ main {
   }
 }
 
-.visible {
-  transform: translateY(0);
-  transition: all 0.5s;
-}
-
 @media (max-width: 992px) {
   .container {
     padding: 0;

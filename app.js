@@ -4,7 +4,7 @@
 // const main = document.querySelector("main");
 const tabs = document.querySelectorAll("[data-tab-target]");
 const tabContents = document.querySelectorAll("[data-tab-content]");
-const sections = document.querySelectorAll("section");
+
 // const searchIconMobile = document.querySelector(".search-icon");
 // const searchForm = document.querySelector(".search-form");
 // const overlay = document.getElementById("overlay");
@@ -185,25 +185,3 @@ function plusSlides(position) {
 //           "translateX(-100%)")
 //     );
 // });
-
-const options = {
-  rootMargin: "-150px 0px",
-};
-
-const translateOnScroll = new IntersectionObserver(function (
-  entries,
-  translateOnScroll
-) {
-  entries.forEach((entry) => {
-    if (!entry.isIntersecting) {
-      return;
-    } else {
-      entry.target.classList.add("visible");
-    }
-  });
-},
-options);
-
-sections.forEach((section) => {
-  translateOnScroll.observe(section);
-});

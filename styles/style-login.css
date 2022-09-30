@@ -386,10 +386,6 @@ header .top-bar .mobile-menu .hamburger-icon.active .bar:nth-child(3) {
   header nav .menu-main a {
     padding: 1rem 0;
   }
-  header nav .menu-main a .menu-chevron {
-    display: block;
-    float: right;
-  }
   header .active {
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -410,6 +406,11 @@ header .top-bar .mobile-menu .hamburger-icon.active .bar:nth-child(3) {
     padding-right: 0.5rem;
     -webkit-transform: translateY(1px);
             transform: translateY(1px);
+  }
+  header nav .menu-item .nav-expand-link::after {
+    content: url("../images/chevronmenu.svg");
+    display: block;
+    float: right;
   }
   header nav .menu-item .menu-sub,
   header nav .menu-item .menu-sub ul {
@@ -435,11 +436,6 @@ header .top-bar .mobile-menu .hamburger-icon.active .bar:nth-child(3) {
     padding: 1rem 0;
     margin: 0;
     border-bottom: 1px solid #e7e7e7;
-  }
-  header nav .menu-item .menu-sub .menu-category .menu-chevron,
-  header nav .menu-item .menu-sub ul .menu-category .menu-chevron {
-    display: block;
-    float: right;
   }
   header nav .menu-item .menu-sub .menu-flex,
   header nav .menu-item .menu-sub ul .menu-flex {

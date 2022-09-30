@@ -99,7 +99,7 @@ class Footer extends HTMLElement {
          </div>
        </nav>
        <hr />
-       <section class="footer-base-bar">
+       <div class="footer-base-bar">
          <div class="copy-rights">
            <span>© Mugler 2022</span>
            <ul>
@@ -120,7 +120,7 @@ class Footer extends HTMLElement {
              </ul>
            </div>
          </div>
-       </section>
+       </div>
      </div>
    </footer>`;
   }
