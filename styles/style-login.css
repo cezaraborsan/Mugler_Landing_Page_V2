@@ -89,7 +89,6 @@ header nav .nav-list a {
   padding-left: 2.5rem;
   border-radius: 4px;
   border: 1px solid #c3c3c3;
-  cursor: pointer;
 }
 
 .opacity {
@@ -323,7 +322,7 @@ header .top-bar .mobile-menu .hamburger-icon.active .bar:nth-child(3) {
     left: 0;
     background-color: white;
     width: 100vw;
-    padding: 24px 1rem;
+    padding: 24px 2rem;
     z-index: 3;
   }
   .search-form .search-input-container {
@@ -731,7 +730,6 @@ body::-webkit-scrollbar {
 .container {
   padding: 24px 24px 0;
   width: 100%;
-  max-width: 1920px;
   min-width: 350px;
   margin: 0 auto;
 }

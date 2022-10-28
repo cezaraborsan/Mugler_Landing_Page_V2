@@ -3,6 +3,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 4.5rem 0;
+  position: relative;
 }
 
 .tab-control,
@@ -15,8 +16,21 @@
   gap: 1.5rem;
 }
 
+.slider {
+  margin-bottom: 2rem;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 0.4s;
+
+  will-change: transform;
+  user-select: none;
+}
+
 .tab-item,
 .exception-item {
+  padding-bottom: 0.5rem;
   img {
     width: clamp(13rem, 22vw, 20rem);
     cursor: pointer;
@@ -67,7 +81,7 @@
   font-size: 2rem;
   font-weight: 400;
   color: rgba(15, 15, 15, 0.25);
-  padding: 0 0 2rem;
+  padding: 0 0 0.2rem;
   background-color: inherit;
   cursor: pointer;
   white-space: nowrap;
@@ -115,6 +129,8 @@ h3 {
   img {
     border: 1px solid rgba(15, 15, 15, 0.25);
     border-radius: 4px;
+    max-width: 300px;
+    max-height: 300px;
 
     &:hover {
       border-color: black;
@@ -141,6 +157,16 @@ h3 {
   }
 }
 
+.outer-wrapper::-webkit-scrollbar {
+  height: 5px;
+}
+
+.outer-wrapper::-webkit-scrollbar-thumb {
+  height: 5px;
+  background-color: #bebebe;
+  border-radius: 2px;
+}
+
 @media (max-width: 992px) {
   .tabs-section,
   .exceptions-section {
@@ -152,15 +178,7 @@ h3 {
     padding: 0 1rem;
     justify-content: start;
     align-items: flex-start;
-    justify-content: flex-start;
     text-align: left;
-    overflow: scroll;
-  }
-
-  .tab-control::-webkit-scrollbar,
-  .tab::-webkit-scrollbar,
-  .exceptions-content::-webkit-scrollbar {
-    display: none;
   }
 }
 
@@ -177,6 +195,5 @@ h3 {
     justify-content: start;
     align-items: flex-start;
     text-align: left;
-    overflow: scroll;
   }
 }

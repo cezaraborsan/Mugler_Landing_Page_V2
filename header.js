@@ -83,7 +83,7 @@ class Header extends HTMLElement {
               </div>
 
               <div class="menu-col-2 nav-expand">
-                <a class="menu-category nav-expand-link">
+                <a href='womens.html' class="menu-category nav-expand-link">
                   Womens' Fragrance
                 </a>
                 <ul class="nav-expand-content">

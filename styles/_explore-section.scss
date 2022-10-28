@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+.nav-helper {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 100%;
+}
+
 .explore-section {
   .explore-row {
     .explore-col-1 {
@@ -38,7 +45,7 @@
   .row-2,
   .row-5,
   .row-6 {
-    padding-top: 24px;
+    margin-top: 24px;
   }
 
   .row-2,
@@ -125,7 +132,7 @@
     padding-top: 0;
     .row-2 {
       flex-direction: column;
-      padding-top: 0;
+      margin-top: 0;
     }
 
     .row-4,
@@ -140,7 +147,7 @@
     .row-1,
     .row-5,
     .row-6 {
-      padding-top: 0px;
+      margin-top: 0px;
     }
   }
 
@@ -164,11 +171,11 @@
 @media (max-width: 576px) {
   .explore-row {
     .explore-col-1 {
-      img {
-        height: auto;
-        max-height: 60vh;
-        width: 100%;
-      }
+      // img {
+      //   height: auto;
+      //   max-height: 60vh;
+      //   width: 100%;
+      // }
     }
   }
 }

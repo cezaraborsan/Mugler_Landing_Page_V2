@@ -71,7 +71,6 @@ header {
       padding-left: 2.5rem;
       border-radius: 4px;
       border: $booder-nav;
-      cursor: pointer;
     }
   }
 }
@@ -309,7 +308,7 @@ header {
     left: 0;
     background-color: white;
     width: 100vw;
-    padding: 24px 1rem;
+    padding: 24px 2rem;
     z-index: 3;
 
     .search-input-container {

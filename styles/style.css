@@ -21,6 +21,7 @@
 .slide .hero-col-2 img {
   -o-object-fit: cover;
      object-fit: cover;
+  max-height: 85vh;
 }
 
 .arrow-btn {
@@ -220,6 +221,13 @@
   }
 }
 
+.nav-helper {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 100%;
+}
+
 .explore-section .explore-row .explore-col-1 img {
   display: inline-block;
   height: 100%;
@@ -244,7 +252,7 @@
 .explore-section .row-2,
 .explore-section .row-5,
 .explore-section .row-6 {
-  padding-top: 24px;
+  margin-top: 24px;
 }
 
 .explore-section .row-2,
@@ -353,7 +361,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-top: 0;
+    margin-top: 0;
   }
   .explore-section .row-4 .explore-col-2 .col-content,
   .explore-section .row-5 .explore-col-2 .col-content,
@@ -363,7 +371,7 @@
   .explore-section .row-1,
   .explore-section .row-5,
   .explore-section .row-6 {
-    padding-top: 0px;
+    margin-top: 0px;
   }
   .explore-row {
     width: 100%;
@@ -390,19 +398,12 @@
   }
 }
 
-@media (max-width: 576px) {
-  .explore-row .explore-col-1 img {
-    height: auto;
-    max-height: 60vh;
-    width: 100%;
-  }
-}
-
 .tabs-section,
 .exceptions-section {
   width: 100%;
   margin: 0 auto;
   padding: 4.5rem 0;
+  position: relative;
 }
 
 .tab-control,
@@ -422,6 +423,26 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 1.5rem;
+}
+
+.slider {
+  margin-bottom: 2rem;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  will-change: transform;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.tab-item,
+.exception-item {
+  padding-bottom: 0.5rem;
 }
 
 .tab-item img,
@@ -481,7 +502,7 @@
   font-size: 2rem;
   font-weight: 400;
   color: rgba(15, 15, 15, 0.25);
-  padding: 0 0 2rem;
+  padding: 0 0 0.2rem;
   background-color: inherit;
   cursor: pointer;
   white-space: nowrap;
@@ -530,6 +551,8 @@ h3 {
 .tab-item img {
   border: 1px solid rgba(15, 15, 15, 0.25);
   border-radius: 4px;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .tab-item img:hover {
@@ -556,6 +579,16 @@ h3 {
   padding-bottom: 2rem;
 }
 
+.outer-wrapper::-webkit-scrollbar {
+  height: 5px;
+}
+
+.outer-wrapper::-webkit-scrollbar-thumb {
+  height: 5px;
+  background-color: #bebebe;
+  border-radius: 2px;
+}
+
 @media (max-width: 992px) {
   .tabs-section,
   .exceptions-section {
@@ -570,14 +603,7 @@ h3 {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    justify-content: flex-start;
     text-align: left;
-    overflow: scroll;
-  }
-  .tab-control::-webkit-scrollbar,
-  .tab::-webkit-scrollbar,
-  .exceptions-content::-webkit-scrollbar {
-    display: none;
   }
 }
 
@@ -595,7 +621,6 @@ h3 {
         -ms-flex-align: start;
             align-items: flex-start;
     text-align: left;
-    overflow: scroll;
   }
 }
 
@@ -689,7 +714,6 @@ header nav .nav-list a {
   padding-left: 2.5rem;
   border-radius: 4px;
   border: 1px solid #c3c3c3;
-  cursor: pointer;
 }
 
 .opacity {
@@ -923,7 +947,7 @@ header .top-bar .mobile-menu .hamburger-icon.active .bar:nth-child(3) {
     left: 0;
     background-color: white;
     width: 100vw;
-    padding: 24px 1rem;
+    padding: 24px 2rem;
     z-index: 3;
   }
   .search-form .search-input-container {
