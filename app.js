@@ -194,7 +194,6 @@ let scrollLeft;
 sliders.forEach((slider) => {
   slider.addEventListener("mousedown", (e) => {
     isDown = true;
-
     startX = e.pageX - slider.offsetLeft;
     scrollLeft = slider.scrollLeft;
   });
@@ -208,7 +207,7 @@ sliders.forEach((slider) => {
     if (!isDown) return;
     e.preventDefault();
     const x = e.pageX - slider.offsetLeft;
-    const walk = (x - startX) * 3; //scroll-fast
+    const walk = (x - startX) * 2; //scroll-fast
     slider.scrollLeft = scrollLeft - walk;
   });
 });

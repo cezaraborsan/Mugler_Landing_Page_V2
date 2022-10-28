@@ -579,16 +579,6 @@ h3 {
   padding-bottom: 2rem;
 }
 
-.outer-wrapper::-webkit-scrollbar {
-  height: 5px;
-}
-
-.outer-wrapper::-webkit-scrollbar-thumb {
-  height: 5px;
-  background-color: #bebebe;
-  border-radius: 2px;
-}
-
 @media (max-width: 992px) {
   .tabs-section,
   .exceptions-section {
@@ -604,6 +594,11 @@ h3 {
         -ms-flex-align: start;
             align-items: flex-start;
     text-align: left;
+    overflow: scroll;
+  }
+  .tab::-webkit-scrollbar,
+  .tab-control::-webkit-scrollbar {
+    display: none;
   }
 }
 
@@ -621,6 +616,10 @@ h3 {
         -ms-flex-align: start;
             align-items: flex-start;
     text-align: left;
+    overflow: scroll;
+  }
+  .exceptions-content::-webkit-scrollbar {
+    display: none;
   }
 }
 
