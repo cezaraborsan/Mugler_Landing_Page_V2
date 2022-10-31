@@ -451,6 +451,8 @@
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  border: 1px solid rgba(15, 15, 15, 0.25);
+  border-radius: 4px;
 }
 
 .tab-item img:hover,
@@ -549,8 +551,6 @@ h3 {
 }
 
 .tab-item img {
-  border: 1px solid rgba(15, 15, 15, 0.25);
-  border-radius: 4px;
   max-width: 300px;
   max-height: 300px;
 }
