@@ -184,7 +184,6 @@ main {
   grid-gap: 2rem;
   margin: 2.5rem auto;
   max-width: 75%;
-  overflow: scroll;
 
   .big-item {
     img {
@@ -268,6 +267,7 @@ main {
     text-align: left;
     gap: 1rem;
     max-width: 80%;
+    overflow: scroll;
 
     img {
       min-width: 300px;

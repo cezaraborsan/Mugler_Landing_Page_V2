@@ -915,7 +915,6 @@ main button {
   grid-gap: 2rem;
   margin: 2.5rem auto;
   max-width: 75%;
-  overflow: scroll;
 }
 
 .big-products .big-item img {
@@ -1003,6 +1002,7 @@ main button {
     text-align: left;
     gap: 1rem;
     max-width: 80%;
+    overflow: scroll;
   }
   .big-products img {
     min-width: 300px;
