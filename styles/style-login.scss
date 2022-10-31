@@ -93,6 +93,7 @@ section {
       color: #4b4b4b;
     }
 
+    .second-btn,
     button {
       font-family: "Albert Sans", sans-serif;
       cursor: pointer;
@@ -104,6 +105,10 @@ section {
       transition: all 0.2s;
       display: block;
       padding: 0.8rem;
+    }
+
+    .login-continue,
+    .first-btn {
       background-color: black;
       color: white;
     }

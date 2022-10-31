@@ -83,7 +83,7 @@ class Header extends HTMLElement {
               </div>
 
               <div class="menu-col-2 nav-expand">
-                <a href='womens.html' class="menu-category nav-expand-link">
+                <a class="menu-category nav-expand-link">
                   Womens' Fragrance
                 </a>
                 <ul class="nav-expand-content">
@@ -149,13 +149,13 @@ class Header extends HTMLElement {
 
               <div class="menu-col-2">
                 <p class="menu-category">
-                  Collections 2
+                 Shop online
                 </p>
               </div>
 
               <div class="menu-col-3">
                 <p class="menu-category">
-                  Collections 3
+                Find a store
                 </p>
               </div>
             </div>
@@ -170,21 +170,16 @@ class Header extends HTMLElement {
             <div class="menu-flex">
               <div class="menu-col-1">
                 <p class="menu-category">
-                  Fountain 1
+                  Refill in store
                 </p>
               </div>
 
               <div class="menu-col-2">
                 <p class="menu-category">
-                  Fountain 2
+                  Refill at home
                 </p>
               </div>
-
-              <div class="menu-col-3">
-                <p class="menu-category">
-                  Fountain 3
-                </p>
-              </div>
+            
             </div>
           </div>
         </li>
@@ -192,6 +187,7 @@ class Header extends HTMLElement {
           <a href="#" class="menu-bar-link nav-expand-link">
             About
            </a>
+          
         </li>
       </ul>
     </nav>

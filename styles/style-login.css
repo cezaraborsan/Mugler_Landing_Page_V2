@@ -41,7 +41,7 @@ header {
 
 .top-bar .top-bar-buttons button:first-child,
 .top-bar .mobile-menu button:first-child {
-  padding-right: 1.5rem;
+  padding-right: 1rem;
 }
 
 header nav {
@@ -492,6 +492,10 @@ footer {
   margin-top: 24px;
 }
 
+a {
+  color: white;
+}
+
 .footer-content {
   max-width: 1860px;
   padding: 4rem 0;
@@ -536,7 +540,6 @@ footer {
 }
 
 .footer-menu .links-list a {
-  color: white;
   display: inline-block;
 }
 
@@ -824,6 +827,7 @@ section .col-2 p {
   color: #4b4b4b;
 }
 
+section .col-2 .second-btn,
 section .col-2 button {
   font-family: "Albert Sans", sans-serif;
   cursor: pointer;
@@ -836,6 +840,10 @@ section .col-2 button {
   transition: all 0.2s;
   display: block;
   padding: 0.8rem;
+}
+
+section .col-2 .login-continue,
+section .col-2 .first-btn {
   background-color: black;
   color: white;
 }

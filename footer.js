@@ -103,20 +103,20 @@ class Footer extends HTMLElement {
          <div class="copy-rights">
            <span>© Mugler 2022</span>
            <ul>
-             <li>Terms & Conditions</li>
-             <li>Site Map</li>
-             <li>Privacy Policy</li>
+             <li><a href="#">Terms & Conditions</a></li>
+             <li><a href="#">Site Map</a></li>
+             <li><a href="#">Privacy Policy</a></li>
            </ul>
          </div>
          <div class="social-links">
-           <p>FIND A STORE</p>
+         <a href="#">FIND A STORE</a>
            <div class="social-wrapper">
              <ul>
-               <li><img src="./images/twitter.svg" /></li>
-               <li><img src="./images/facebook.svg" /></li>
-               <li><img src="./images/youtube.svg" /></li>
-               <li><img src="./images/pinterest.svg" /></li>
-               <li><img src="./images/instagram.svg" /></li>
+               <li><a href="#"><img src="./images/twitter.svg" /></a></li>
+               <li><a href="#"><img src="./images/facebook.svg" /></a></li>
+               <li><a href="#"><img src="./images/youtube.svg" /></a></li>
+               <li><a href="#"><img src="./images/pinterest.svg" /></a></li>
+               <li><a href="#"><img src="./images/instagram.svg" /></a></li>
              </ul>
            </div>
          </div>

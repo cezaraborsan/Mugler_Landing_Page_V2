@@ -18,6 +18,11 @@ function myFunction() {
   let d = parseInt(document.getElementById("products-count").innerHTML);
   if (d < productsLimit) {
     document.getElementById("products-count").innerHTML = d + i;
+
+    if (d + i === productsLimit) {
+      showMoreBtn.disabled = "true";
+      showMoreBtn.classList.add("disabled");
+    }
   }
 }
 
@@ -30,6 +35,8 @@ showMoreBtn.addEventListener("click", function (e) {
     .splice(0, 4)
     .forEach((elem) => elem.classList.remove("hidden"));
 });
+
+//Drag when screen is smaller
 
 const slider = document.querySelector(".slider");
 let isDown = false;
