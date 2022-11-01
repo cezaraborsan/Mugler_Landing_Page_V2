@@ -187,7 +187,28 @@ class Header extends HTMLElement {
           <a href="#" class="menu-bar-link nav-expand-link">
             About
            </a>
-          
+           <div class="menu-sub nav-expand-content">
+            <div class="menu-flex">
+              <div class="menu-col-1">
+                <p class="menu-category">
+                  MUGLER World
+                </p>
+              </div>
+
+              <div class="menu-col-2">
+                <p class="menu-category">
+                 MUGLER Mag
+                </p>
+              </div>
+
+              <div class="menu-col-3">
+                <p class="menu-category">
+                Contact Us
+                </p>
+              </div>
+            </div>
+          </div>
+        </li>
         </li>
       </ul>
     </nav>
