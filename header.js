@@ -4,7 +4,9 @@ class Header extends HTMLElement {
   }
 
   connectedCallback() {
-    this.innerHTML = `<header class="header">
+    this.innerHTML = `
+    <header class="header">
+  
     <div class="top-bar">
       <div class="mobile-menu">
         <button class="hamburger-icon">
@@ -47,7 +49,7 @@ class Header extends HTMLElement {
           /></a>
         </button>
         <button class="basket-btn">
-          <img src="./images/basket.svg" alt="basket" />
+          <a><img src="./images/basket.svg" alt="basket" /></a>
         </button>
       </div>
     </div>
@@ -346,4 +348,33 @@ expandList.forEach((item) => {
         (item.querySelector(".nav-expand-content").style.transform =
           "translateX(-100%)")
     );
+});
+
+// LOADER
+
+const loader = document.querySelector(".mugler-logo-loader");
+const loaderWrapper = document.querySelector(".loader-wrapper");
+const body = document.querySelector("body");
+
+function fadeIn() {
+  loader.classList.add("fadeIn");
+}
+
+function fadeOut() {
+  loader.classList.add("fadeOut");
+}
+
+function overflowVisible() {
+  body.style.overflowY = "scroll";
+}
+
+function translateWrapper() {
+  loaderWrapper.style.transform = "translateY(-200vh)";
+  loaderWrapper.style.visibility = "hidden";
+  setTimeout(overflowVisible, 2000);
+}
+
+window.addEventListener("load", (e) => {
+  fadeIn();
+  setTimeout(translateWrapper, 3500);
 });

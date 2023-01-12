@@ -149,8 +149,8 @@
   z-index: 100;
   -webkit-animation: moving;
           animation: moving;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
@@ -913,10 +913,8 @@ header .top-bar .mobile-menu .hamburger-icon.active .bar:nth-child(3) {
   display: none;
 }
 
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
+input[type="search"] {
+  -moz-appearance: none;
   -webkit-appearance: none;
 }
 
@@ -1343,6 +1341,63 @@ a {
   }
 }
 
+.loader-wrapper {
+  position: fixed;
+  background-color: black;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 1;
+  -webkit-transition: all 2.5s;
+  transition: all 2.5s;
+}
+
+.loader-wrapper .mugler-logo-loader {
+  width: 70%;
+  opacity: 0;
+}
+
+.loader-wrapper .fadeIn {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    width: 30%;
+  }
+  100% {
+    opacity: 1;
+    width: 70%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    width: 30%;
+  }
+  100% {
+    opacity: 1;
+    width: 70%;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1353,7 +1408,7 @@ a {
 body {
   font-family: "Albert Sans", sans-serif;
   font-size: 16px;
-  overflow: scroll;
+  overflow: hidden;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }

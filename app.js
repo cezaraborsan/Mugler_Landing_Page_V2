@@ -115,12 +115,12 @@ function showSlides() {
   }
 
   slides[slideIndex - 1].style.display = "flex";
-  timer = setTimeout(showSlides, 5000);
+  timer = setTimeout(showSlides, 8000);
 }
 
 function myStopFunction() {
   clearTimeout(timer);
-  timer = setTimeout(showSlides, 5000);
+  timer = setTimeout(showSlides, 8000);
 }
 
 function plusSlides(position) {
