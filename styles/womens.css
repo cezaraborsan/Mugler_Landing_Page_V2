@@ -910,6 +910,14 @@ main button {
   width: 100%;
   height: auto;
   min-width: 150px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.products .item img:hover {
+  opacity: 0.7;
+  border: 1px solid black;
+  border-radius: 4px;
 }
 
 .big-products {
@@ -925,6 +933,14 @@ main button {
 .big-products .big-item img {
   width: 100%;
   height: auto;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.big-products .big-item img:hover {
+  opacity: 0.7;
+  border: 1px solid black;
   border-radius: 4px;
 }
 

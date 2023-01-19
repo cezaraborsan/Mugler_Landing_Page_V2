@@ -27,6 +27,12 @@
   user-select: none;
 }
 
+.tab-item {
+  img {
+    border: 1px solid rgba(15, 15, 15, 0.25);
+  }
+}
+
 .tab-item,
 .exception-item {
   padding-bottom: 0.5rem;
@@ -34,8 +40,8 @@
     width: clamp(13rem, 22vw, 20rem);
     cursor: pointer;
     transition: all 0.3s;
-    border: 1px solid rgba(15, 15, 15, 0.25);
     border-radius: 4px;
+    transition: all 0.2s;
 
     &:hover {
       opacity: 0.7;

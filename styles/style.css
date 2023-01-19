@@ -440,6 +440,10 @@
           user-select: none;
 }
 
+.tab-item img {
+  border: 1px solid rgba(15, 15, 15, 0.25);
+}
+
 .tab-item,
 .exception-item {
   padding-bottom: 0.5rem;
@@ -451,8 +455,9 @@
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid rgba(15, 15, 15, 0.25);
   border-radius: 4px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .tab-item img:hover,
