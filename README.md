@@ -1,8 +1,6 @@
 Mugler Website
 
-One of my favorite projects has been making my version of the Mugler website. I have been following clothing brands for a long time and recently I have been analyzing their websites as well. I was fascinated by many of them, which is why I chose to do this project.
-
-Besides the main page, on the website there is a page to log in or register with an email address, and from the login page, if you enter an email address, e.g. example@example.com, a password entry page follows.
+The Mugler Website project showcases my skills in JavaScript, HTML, and SCSS as I create my own version of the popular clothing brand's website. As a fan of various clothing brands, I've been studying their websites and was inspired to tackle this project. In addition to the main page, I've also created a login/register page where users can enter their email address to proceed to the password entry page. Additionally, there is a page showcasing some of the brand's products. This project allowed me to develop my front-end development skills and create a website that highlights my attention to detail and ability to create a sleek and stylish design.
 
 ![mugler main page](images/screenshots/mugler-main-page.png)
 
